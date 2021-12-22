@@ -58,7 +58,7 @@ spec:
           limits:
             memory: 2Gi
       volumes:
-        - name: my-notebook-pv-storage
+        - name: my-notebook-pv
           persistentVolumeClaim:
             claimName: my-notebook-pvc
 ---
