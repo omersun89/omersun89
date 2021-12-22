@@ -47,7 +47,7 @@ spec:
       serviceAccountName: spark
       containers:
       - name: my-notebook
-        image: docker.io/jupyter/pyspark-notebook:latest
+        image: docker.io/itayb/jupyter-notebook:6.2.0-spark-3.1.1-java-11-hadoop-3.2.0
         ports:
           - containerPort: 8888
         volumeMounts:
